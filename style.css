@@ -1,18 +1,22 @@
+
+
 body{
     margin: 0;
+    width: 1920px;
+    height: 1080px;
 }
 
 
 h1{
     color: palevioletred;
-    font-size: 344px;
+    font-size: 21.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     opacity: 80%;
     transform: rotate(25deg);
     justify-content: center;
     align-items: center;
-    margin: -700px 200px 0;
+    margin: -43.75rem 12.5rem 0;
     
 }
 
