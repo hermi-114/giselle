@@ -2,24 +2,28 @@
 
 body{
     margin: 0;
-    width: 1920px;
-    height: 1080px;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 h1{
+    position: absolute;
     color: palevioletred;
-    font-size: 21.5rem;
+    font-size: 22.5vw;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     opacity: 80%;
-    transform: rotate(25deg);
+    /* transform: rotate(25deg); */
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: -43.75rem 12.5rem 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(25deg);
     
 }
 
 img{
-    width: 1920px;
+    width: 100vw;
+
 }
