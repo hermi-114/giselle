@@ -1,6 +1,7 @@
 
 
 body{
+    position: relative;
     margin: 0;
     width: 100vw;
     height: 56.25vw;
