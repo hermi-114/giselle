@@ -8,11 +8,41 @@ body{
 }
 
 
-h1{
+/* h1{ */
 
+    /* position: absolute; */
+    /* color: palevioletred; */
+    /* font-size: 20vw; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-weight: 100; */
+    /* opacity: 90%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translateX(-50%) translateY(-100%) rotate(15deg); */
+    
+/* } */
+
+h1 {
     position: absolute;
-    color: palevioletred;
-    font-size: 15vw;
+
+    background: linear-gradient(
+        120deg,
+        #d9829b 0%,
+        #b95f82 25%,
+        #713d62 50%,
+        #a95278 70%,
+        #d8899d 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    -webkit-text-stroke: 4px #FFFFFF;
+
+    font-size: 20vw;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     opacity: 80%;
@@ -21,8 +51,7 @@ h1{
     align-items: center;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-100%) rotate(25deg);
-    
+    transform: translateX(-50%) translateY(-100%) rotate(15deg);
 }
 
 img{
